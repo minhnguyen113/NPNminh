@@ -1,0 +1,178 @@
+/* reset CSS */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e7ecf0;
+}
+#main{
+    text-decoration: none;
+    
+}
+
+    
+
+
+.header{
+    height: 50px;
+    position: fixed;
+    background-color: #fff;
+    top: 0;
+    right: 0;
+    left: 0;
+    position: relative;
+    box-shadow: 0 0 10px rgba( 0,0,0,0.25);
+}
+.header__navbar{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    height: 50px;
+}
+
+ul.header__navbar-list {
+    margin: 16.5px 62px;
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+
+}
+
+.header__navbar-item{
+    margin-top: -31px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 32px 25px;
+}
+.header__navbar-item,
+.header__navbar-item-link {
+    text-decoration: none;
+    color:#858382;
+    display: block;
+    cursor: pointer;
+    
+    
+}
+
+.header__navbar-item-link:hover{
+    opacity: 0.8;
+    
+}
+.header__navbar-insert:hover {
+    color: #34add9;
+    opacity: 1;
+}
+
+
+.header__navbar-icon-no-poiter{
+    color:#858382 ;
+}
+
+/* bảng nhỏ */
+.header__navbar-subnav{
+    position: absolute;
+    list-style-type: none;
+    width: 170px;
+    background-color: #fff;
+    top: 100%;
+    box-shadow: 0 0 10px rgba( 0,0,0,0.2);
+   color: #858382;
+   display: none;   
+}
+
+.header__navbar-subnav-mini {
+    
+    padding: 10px 15px;
+    border-bottom: 1px solid #ccc;
+}
+.header__navbar-subnav-a{
+    text-decoration: none;
+    color: #858382;
+}
+.header__navbar-subnav-mini:hover{
+   
+    background-color: #ccc;
+    
+
+}
+.header__navbar-item:hover .header__navbar-subnav{
+    display: block; 
+}
+    
+
+/* container */
+.container {
+    background-color: #fff;
+   
+    box-shadow: 0 0 10px rgba( 0,0,0,0.1);
+}
+.container__section{
+    display: flex;
+    
+    justify-content: space-between;
+}
+.container__section-one{
+   
+    display: block;
+    padding: 18px 91px;
+    
+   
+}
+.container__section-info:hover{
+    cursor: text;
+}
+.container__section-body {
+    display: flex;
+}
+.container__section-caption{
+    font-size: 20px;
+    font-weight: 600;
+    color: #667580;
+    text-transform: uppercase;
+}
+.container__section-slider {
+    
+    padding: 15px;
+}
+.container__section-img {
+    border-radius: 50%;
+    
+    width: 150px;
+   
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+.container__section-info {
+    margin: 50px 28px;
+}
+
+.container__section-row{
+    text-decoration: none;
+    color: #667580;
+    font-size: 20px;
+}
+.container__section-row:hover{
+    cursor: text;
+}
+
+/* tten,emial,ID */
+.container__section-name,
+.container__section-email,
+.container__section-id
+ {
+    margin-bottom: 12px;
+    
+}
+
+
+.container__section-two {
+    margin: 100px;
+    color: #667580;
+}
+.container__section-class{
+    font-size: 20px;
+}
